@@ -152,3 +152,19 @@ ul {
 a {
   text-decoration: none;
 }
+
+.chart {
+  height: 80%;
+  width: 80%;
+  box-shadow: 0px 0px 1.5rem -1px #0A0A0A;
+  background-color: #F0F9F9;
+}
+
+.main-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
