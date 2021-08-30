@@ -158,6 +158,47 @@ a {
   width: 80%;
   box-shadow: 0px 0px 1.5rem -1px #0A0A0A;
   background-color: #F0F9F9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.chart__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.chart__top {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.chart__bottom {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.currency-info__price {
+  font-size: 3rem;
+}
+.currency-info__select {
+  margin-left: 1rem;
 }
 
 .main-container {
