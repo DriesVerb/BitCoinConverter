@@ -3,5 +3,8 @@ export const CURRENCY_SYMBOLS = {
   EUR: "€",
   JPY: "¥",
   PLN: "zł",
-  CNY: "¥",
+  VND: "₫",
+  CHF: "Fr.",
+  NZD: "$",
+  ARS: "$",
 };

@@ -20,6 +20,7 @@ const converterSlice = (set) => ({
     const resCurrency = await axios.get(
       `https://api.coindesk.com/v1/bpi/currentprice/${currency}.json`
     );
+
     const resHistory = await axios.get(
       `https://api.coindesk.com/v1/bpi/historical/close.json?currency=${currency}`
     );

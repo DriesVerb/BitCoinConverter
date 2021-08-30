@@ -18,7 +18,7 @@ const Converter = () => {
   const currencyHistory = converterStore((state) => state.currencyHistory);
   const currencyLabels = converterStore((state) => state.currencyLabels);
 
-  const { code, rate_float } = currencyValues;
+  const { code, rate_float, description } = currencyValues;
 
   useEffect(() => {
     getCurrentRate(currencyCode);
@@ -52,12 +52,15 @@ const Converter = () => {
                 <option value="EUR">EUR</option>
                 <option value="JPY">JPY</option>
                 <option value="PLN">PLN</option>
-                <option value="CNY">CNY</option>
+                <option value="VND">VND</option>
+                <option value="CHF">CHF</option>
+                <option value="NZD">NZD</option>
+                <option value="ARS">ARS</option>
               </select>
             </div>
           </div>
           <Chart
-            currency={currencyCode}
+            currency={description}
             labels={currencyLabels}
             history={currencyHistory}
           />
