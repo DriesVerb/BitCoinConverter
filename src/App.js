@@ -1,12 +1,12 @@
-import "./css/App.css"
+import "./css/App.css";
 
 // components
-import Chart from "./components/Chart";
+import Convertor from "./components/Converter";
 
 function App() {
   return (
     <div className="main-container">
-      <Chart />
+      <Convertor />
     </div>
   );
 }

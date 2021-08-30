@@ -1,7 +1,7 @@
 import React from "react";
 
-import "./spinner.gif";
+import spinner from "./spinner.gif";
 
 export const Spinner = () => {
-  return <img src="./spinner.gif" alt="loading asset" />;
+  return <img src={spinner} alt="loading asset" />;
 };

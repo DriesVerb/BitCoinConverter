@@ -1,6 +1,6 @@
 import create from "zustand";
-import {devtools} from "zustand/middleware";
+import { devtools } from "zustand/middleware";
 
-import convertorSlice from "./slices/convertorSlice";
+import converterSlice from "./slices/converterSlice";
 
-export const converterStore = create(devtools(convertorSlice))
+export const converterStore = create(devtools(converterSlice));

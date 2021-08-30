@@ -154,14 +154,32 @@ a {
 }
 
 .chart {
-  height: 80%;
-  width: 80%;
+  height: 70%;
+  width: 70%;
   box-shadow: 0px 0px 1.5rem -1px #0A0A0A;
   background-color: #F0F9F9;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+@media only screen and (max-width: 75em) {
+  .chart {
+    height: 80%;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  .chart {
+    height: 90%;
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 37.5em) {
+  .chart {
+    height: 100%;
+    width: 100%;
+  }
 }
 .chart__container {
   width: 100%;
