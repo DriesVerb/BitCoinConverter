@@ -2,7 +2,7 @@
 
 Check out the project here https://driesverb.github.io/BitCoinConverter/
 
-A project that converts Bitcoin into any selected currency and show a graph of the last 31 days. 
+A project that converts Bitcoin into any selected currency and shows a graph of the last 31 days. 
 
 🐻 State management via Zustand. 
 
