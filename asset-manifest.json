@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BitCoinConverter/static/css/main.164f754d.chunk.css",
+    "main.js": "/BitCoinConverter/static/js/main.2b017837.chunk.js",
+    "main.js.map": "/BitCoinConverter/static/js/main.2b017837.chunk.js.map",
+    "runtime-main.js": "/BitCoinConverter/static/js/runtime-main.f96f094a.js",
+    "runtime-main.js.map": "/BitCoinConverter/static/js/runtime-main.f96f094a.js.map",
+    "static/js/2.cfc3b849.chunk.js": "/BitCoinConverter/static/js/2.cfc3b849.chunk.js",
+    "static/js/2.cfc3b849.chunk.js.map": "/BitCoinConverter/static/js/2.cfc3b849.chunk.js.map",
+    "static/js/3.197b0e4c.chunk.js": "/BitCoinConverter/static/js/3.197b0e4c.chunk.js",
+    "static/js/3.197b0e4c.chunk.js.map": "/BitCoinConverter/static/js/3.197b0e4c.chunk.js.map",
+    "index.html": "/BitCoinConverter/index.html",
+    "static/css/main.164f754d.chunk.css.map": "/BitCoinConverter/static/css/main.164f754d.chunk.css.map",
+    "static/js/2.cfc3b849.chunk.js.LICENSE.txt": "/BitCoinConverter/static/js/2.cfc3b849.chunk.js.LICENSE.txt",
+    "static/media/spinner.c7d9f081.gif": "/BitCoinConverter/static/media/spinner.c7d9f081.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f96f094a.js",
+    "static/js/2.cfc3b849.chunk.js",
+    "static/css/main.164f754d.chunk.css",
+    "static/js/main.2b017837.chunk.js"
+  ]
+}
