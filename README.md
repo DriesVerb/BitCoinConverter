@@ -9,4 +9,4 @@ A project that converts Bitcoin into any selected currency and show a graph of t
 💅 Styling is done with Sass and BEM methodology.
 
 ### `npm install`
-### `npm start`
+### `npm start
