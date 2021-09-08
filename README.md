@@ -1,4 +1,4 @@
-# Getting Started with Converter
+# Bitcoin convertor
 
 Check out the project here https://driesverb.github.io/BitCoinConverter/
 
